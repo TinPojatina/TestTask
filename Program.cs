@@ -38,7 +38,7 @@ class Program
         if (string.IsNullOrWhiteSpace(text))
         {
             Console.WriteLine("Tekst ne moze biti null.");
-            return;
+            InputText();
         }
 
         Console.WriteLine($"\n\nOriginal: \n{text}\n\n\n");
